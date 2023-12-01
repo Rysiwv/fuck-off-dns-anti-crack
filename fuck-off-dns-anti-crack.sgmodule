@@ -1,6 +1,6 @@
 #!desc=老刘早上好，不好也可以，随便你。
 [Script]
-fuck-off-dns-anti-crack = type=dns,script-path=https://raw.githubusercontent.com/Rysiwv/fuck-off-dns-anti-crack/main/fuck-off-dns-anti-crack.js
+fuck-off-dns-anti-crack = type=http-response,script-path=https://raw.githubusercontent.com/Rysiwv/fuck-off-dns-anti-crack/main/fuck-off-dns-anti-crack.js
 
 [Host]
 * = script:fuck-off-dns-anti-crack
