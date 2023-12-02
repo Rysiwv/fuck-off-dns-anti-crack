@@ -51,5 +51,5 @@ Promise.all(promises).then(function(results) {
       }
   });
   
-  $done({addresses: addressResult, ttl: addressResult.length ? 3600:2});
+  $done({addresses: addressResult, ttl: addressResult.length ? 3600 : 2});
 });
